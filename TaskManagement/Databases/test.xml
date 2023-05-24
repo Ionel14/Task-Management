@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<TreeViewVM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Categories>
+    <Category>
+      <name>Interesting</name>
+    </Category>
+    <Category>
+      <name>boring</name>
+    </Category>
+  </Categories>
+  <databaseName>test</databaseName>
+  <rootList>
+    <ToDoList>
+      <subList>
+        <ToDoList>
+          <subList />
+          <Tasks>
+            <Task>
+              <Name>some stuff</Name>
+              <Description>some description</Description>
+              <Status>Done</Status>
+              <Priority>High</Priority>
+              <Deadline>2023-04-28T00:00:00</Deadline>
+              <TaskDoneDate>2023-04-23T20:05:22.3524506+03:00</TaskDoneDate>
+              <Category>
+                <name>boring</name>
+              </Category>
+            </Task>
+          </Tasks>
+          <Name>stuff</Name>
+          <ImagePath>../../Icons\folder.png</ImagePath>
+        </ToDoList>
+      </subList>
+      <Tasks>
+        <Task>
+          <Name>Labs</Name>
+          <Description>some description</Description>
+          <Status>Done</Status>
+          <Priority>Medium</Priority>
+          <Deadline>2023-04-21T00:00:00</Deadline>
+          <TaskDoneDate>2023-04-23T20:05:07.8323857+03:00</TaskDoneDate>
+          <Category>
+            <name>boring</name>
+          </Category>
+        </Task>
+        <Task>
+          <Name>Courses</Name>
+          <Description>some description</Description>
+          <Status>Created</Status>
+          <Priority>High</Priority>
+          <Deadline>2023-04-23T00:00:00+03:00</Deadline>
+          <TaskDoneDate>0001-01-01T00:00:00</TaskDoneDate>
+          <Category>
+            <name>boring</name>
+          </Category>
+        </Task>
+      </Tasks>
+      <Name>Work</Name>
+      <ImagePath>../../Icons\business.png</ImagePath>
+    </ToDoList>
+    <ToDoList>
+      <subList />
+      <Tasks>
+        <Task>
+          <Name>friends</Name>
+          <Description>some description</Description>
+          <Status>Created</Status>
+          <Priority>Low</Priority>
+          <Deadline>2023-04-23T00:00:00+03:00</Deadline>
+          <TaskDoneDate>0001-01-01T00:00:00</TaskDoneDate>
+          <Category>
+            <name>Interesting</name>
+          </Category>
+        </Task>
+      </Tasks>
+      <Name>karaoke</Name>
+      <ImagePath>../../Icons\microphone.png</ImagePath>
+    </ToDoList>
+  </rootList>
+  <TaskDueToday>0</TaskDueToday>
+  <TaskDueTomorrow>0</TaskDueTomorrow>
+  <TaskOverdue>0</TaskOverdue>
+  <TaskDone>0</TaskDone>
+  <TaskToBeDone>4</TaskToBeDone>
+  <SelectedItem>
+    <subList>
+      <ToDoList>
+        <subList />
+        <Tasks>
+          <Task>
+            <Name>some stuff</Name>
+            <Description>some description</Description>
+            <Status>Done</Status>
+            <Priority>High</Priority>
+            <Deadline>2023-04-28T00:00:00</Deadline>
+            <TaskDoneDate>2023-04-23T20:05:22.3524506+03:00</TaskDoneDate>
+            <Category>
+              <name>boring</name>
+            </Category>
+          </Task>
+        </Tasks>
+        <Name>stuff</Name>
+        <ImagePath>../../Icons\folder.png</ImagePath>
+      </ToDoList>
+    </subList>
+    <Tasks>
+      <Task>
+        <Name>Labs</Name>
+        <Description>some description</Description>
+        <Status>Done</Status>
+        <Priority>Medium</Priority>
+        <Deadline>2023-04-21T00:00:00</Deadline>
+        <TaskDoneDate>2023-04-23T20:05:07.8323857+03:00</TaskDoneDate>
+        <Category>
+          <name>boring</name>
+        </Category>
+      </Task>
+      <Task>
+        <Name>Courses</Name>
+        <Description>some description</Description>
+        <Status>Created</Status>
+        <Priority>High</Priority>
+        <Deadline>2023-04-23T00:00:00+03:00</Deadline>
+        <TaskDoneDate>0001-01-01T00:00:00</TaskDoneDate>
+        <Category>
+          <name>boring</name>
+        </Category>
+      </Task>
+    </Tasks>
+    <Name>Work</Name>
+    <ImagePath>../../Icons\business.png</ImagePath>
+  </SelectedItem>
+  <RootSelectVis>Hidden</RootSelectVis>
+</TreeViewVM>
